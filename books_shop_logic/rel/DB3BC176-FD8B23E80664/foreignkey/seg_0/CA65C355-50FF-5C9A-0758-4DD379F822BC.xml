@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CA65C355-50FF-5C9A-0758-4DD379F822BC" containerWithKeyObject="DAC8AAE9-3C71-13FF-27CF-238262EC21F6" localFKIndex="AB61F76A-8700-33FF-FB22-8D3F16B5CECA" name="books_book_forms_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>3AFB5239-ABF7-3FA1-98C2-44F75BAE78DD</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<referredTableLongName>book_forms</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EB3795F9-4D90-BD67-5CDC-3EEA1E8ABD34</referredTableID>
+<keyObject>E966BA05-CB1D-5F80-B2DD-BDC6C246535E</keyObject>
+<referredKeyID>E966BA05-CB1D-5F80-B2DD-BDC6C246535E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_form</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

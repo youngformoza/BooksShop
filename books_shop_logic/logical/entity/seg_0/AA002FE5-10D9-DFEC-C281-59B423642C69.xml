@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA002FE5-10D9-DFEC-C281-59B423642C69" name="book_cover_types">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:09:28 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cover_book" id="5A19022A-D1A8-6B81-1387-1ED343F92D2E">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:09:47 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="AF8F3143-BAB2-B4E8-9A15-283C951E3721">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:12:07 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D2627ACD-A7C3-91F9-5430-F5F4B7E8E0ED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="82289096-33B1-EDCF-F5E0-D4991457ABA4" name="book_cover_types PK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:10:16 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>5A19022A-D1A8-6B81-1387-1ED343F92D2E</newElementsIDs>
+<usedAttributes>
+<attributeRef>5A19022A-D1A8-6B81-1387-1ED343F92D2E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

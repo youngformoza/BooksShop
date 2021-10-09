@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="position_to_employee" directorySegmentName="seg_0" id="10E9DC3F-275F-C975-AC48-735518351D4B">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 12:49:36 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<sourcePk>05CD2E20-64C4-1D5C-DDE9-C4807E7E7F88</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B7072C7-C744-95B2-397E-99D33709BDE2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B82164A0-CC16-1B7D-50EE-3F5D7F604923</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E89F0EE3-B59E-06F1-74EE-DD3DDC59D84D" name="author_to_book">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>4BFF4B57-E6C1-E23C-B13D-67ECFB9EB5A2</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="authors_id_author" id="5225C0D7-8986-338D-9C53-CC7207CAEF5F">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>2EACC1B8-3BA7-FA0D-0284-290F74CA819D</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4D4DA9D-7D46-AA6A-F47D-C912444A07C5" referredColumn="37A44F0A-79D7-D457-BDEF-26C0EF1F02B9"/>
+</associations>
+</Column>
+<Column name="books_products_id_product" id="882ADE80-4FF7-8C07-F990-6C68C9EF0E72">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>12E4C94E-D222-AF35-3AB7-CBAEB4384804</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D01CEB33-549A-3C25-08D7-608A0B02159F" referredColumn="9C43C77A-4D71-72BB-C15E-78F930040B4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4799CE65-EAAC-F402-68D2-095CB85A2470" name="author_to_book_PK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>531706F3-16A1-EDAE-C7E1-D0F5D52921D6</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5225C0D7-8986-338D-9C53-CC7207CAEF5F"/>
+<colUsage columnID="882ADE80-4FF7-8C07-F990-6C68C9EF0E72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0604EE10-1220-9B7F-BAED-B94F4F76AB02" name="author_to_book_authors_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>1DE6BE5F-A19A-68DA-68F4-97A28C6868B8</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5225C0D7-8986-338D-9C53-CC7207CAEF5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1A52ED4-019E-408B-F5E7-F27C33179AC2" name="author_to_book_books_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>3D83054A-8C50-6D09-9565-3280A9DF80A0</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="882ADE80-4FF7-8C07-F990-6C68C9EF0E72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B4F2F3C-1577-D8FB-D7D5-F15BE4572EF5" name="customers">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 13:22:01 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_customer" id="5D30DA5D-8AE6-3944-DA08-DA3A6F5FF982">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 13:22:10 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="7B2C2CF6-EDB0-4EF5-EDF0-6BCC3850FE20">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 13:23:06 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F8B544B1-450C-56AE-AB52-DB22370AAFE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sex" id="A3F400B9-1BAF-F15A-67E2-4FDE457A3ABF">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 13:22:22 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3345D970-2AA3-B0E6-4B86-D096EC5E1AD9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="age" id="B6091B1E-0974-EA25-9DF0-549C1063F1E9">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 13:22:36 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profession" id="90F9E93B-C952-0A17-8622-57069F04C719">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 13:22:50 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F8B544B1-450C-56AE-AB52-DB22370AAFE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C845FFB3-62F2-F1ED-17CF-D3ADDFA93FF2" name="customers PK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 13:22:19 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<engineerTo>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D30DA5D-8AE6-3944-DA08-DA3A6F5FF982</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

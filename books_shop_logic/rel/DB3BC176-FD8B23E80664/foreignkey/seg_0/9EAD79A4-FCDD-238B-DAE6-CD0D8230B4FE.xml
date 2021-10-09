@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EAD79A4-FCDD-238B-DAE6-CD0D8230B4FE" containerWithKeyObject="DAC8AAE9-3C71-13FF-27CF-238262EC21F6" localFKIndex="9CF2BAC3-4C32-97F6-FA16-2B417BBEE799" name="books_paper_types_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>B8F94DC1-096F-6119-6469-F3F2C86B4EC6</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<referredTableLongName>paper_types</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>310BB775-559C-657A-D157-54FF353289D0</referredTableID>
+<keyObject>BAB6C191-6B08-41C1-4044-BC5EAF0D8EC6</keyObject>
+<referredKeyID>BAB6C191-6B08-41C1-4044-BC5EAF0D8EC6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_paper_type</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB5B3BF5-2199-88AD-969A-94C99E29A9A8" name="authors">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>D8D59940-0380-7A56-83FD-CA2720293F8E</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_author" id="37A44F0A-79D7-D457-BDEF-26C0EF1F02B9">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>DE1D6092-7E0C-F1B9-3E8B-1FD5D1B9B798</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="full_name" id="8FAD898A-52A1-0115-9A8C-05CA911FC649">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>0B560731-4064-A2D5-7BCB-1BA0769B782A</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F051F2C-7990-972D-3AAB-F2E180243870</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="DB12230B-B103-9046-5F3B-CE8BFF04F7EE">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>174F457F-BE99-EF0A-DAF4-C038355CAE58</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F8B544B1-450C-56AE-AB52-DB22370AAFE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="popularity" id="8B8997FC-18F5-CDD8-3C75-DEDF51DC17C0">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>93F5AC11-3E48-81BF-6449-07C1FBF16764</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6C67768-F280-3FDD-3EA6-41D79013F7C9" name="authors_PK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>C128F679-364D-E787-65FA-7E2C16CE40BB</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A44F0A-79D7-D457-BDEF-26C0EF1F02B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

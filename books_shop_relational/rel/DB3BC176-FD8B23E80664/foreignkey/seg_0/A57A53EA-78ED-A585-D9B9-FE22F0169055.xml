@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A57A53EA-78ED-A585-D9B9-FE22F0169055" containerWithKeyObject="DAC8AAE9-3C71-13FF-27CF-238262EC21F6" localFKIndex="E3B5AE1B-B6EF-F7E3-D89F-88D1273340F2" name="books_cover_book_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>B860B158-EF13-59C5-FCB2-7C1DEA187244</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<referredTableLongName>cover_book</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F3CD122-523D-0182-8C7F-A57F0ED875F6</referredTableID>
+<keyObject>34C5E3E4-E50E-7558-C4A8-5669C7599700</keyObject>
+<referredKeyID>34C5E3E4-E50E-7558-C4A8-5669C7599700</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cover_book</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

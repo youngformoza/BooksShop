@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5680194E-31B2-0CEE-1AF7-2164AD13407F" name="gift_cards">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>98CC6CEB-7A1D-7D05-8BBC-246DCEA30A24</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="products_id_product" id="BBFBED3E-5B52-B131-4553-9C5DCBD6279C">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>2D26517A-7E4D-8D45-8C67-62AAA4C4FF64</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4671F818-3E4B-3B2C-1C55-CAD3EB1D554A" referredColumn="8C2E5ADA-F6E0-DD6E-744D-ADED378FBF54"/>
+</associations>
+</Column>
+<Column name="types_of_cover_id_cover_cards" id="DC14EF94-D1A3-131A-689C-0479C9BEC2E5">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>A14761BA-4895-79BF-7BAF-F8B92B50C72F</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="816748C5-DADB-F048-5FE8-2B2DD469D524" referredColumn="8E275433-C70D-FB72-5D1F-6389AB4E4121"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4D478BA-4373-8657-B359-EA5DAA16047D" name="gift_cards_PK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>2B3E3C96-54E7-B517-E097-AF3075998639</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBFBED3E-5B52-B131-4553-9C5DCBD6279C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F7F7934-2879-2DA7-71F7-684593BD37AE" name="gift_cards_products_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>13C468FE-D110-36A6-636C-47AACB7ED181</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBFBED3E-5B52-B131-4553-9C5DCBD6279C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1460F02-ECDA-8C5B-01B4-4965FA1D41FA" name="gift_cards_types_of_cover_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>C68FAB5E-42DD-301D-9FBF-9056A4E22F62</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC14EF94-D1A3-131A-689C-0479C9BEC2E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

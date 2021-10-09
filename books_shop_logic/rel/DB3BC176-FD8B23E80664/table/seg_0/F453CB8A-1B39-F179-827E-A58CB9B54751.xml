@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F453CB8A-1B39-F179-827E-A58CB9B54751" name="product_to_order">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>216FBB84-3F0A-1BB6-A53E-6639C261A33D</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="products_id_product" id="3D678E15-3A34-47AA-1A83-2EA8102CAEA2">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>31CB66F3-0993-245A-F101-923F7571E49E</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A193D173-F39B-1A9E-D605-985EC2D07FB4" referredColumn="8C2E5ADA-F6E0-DD6E-744D-ADED378FBF54"/>
+</associations>
+</Column>
+<Column name="orders_id_order" id="FB8EDC3A-52DC-1DE8-3D1B-A7A57B276FC7">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>B53990CB-A614-728E-3702-B68D6F1C24BA</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F5E4F71-36D0-BE12-1F87-F9E6FD920332" referredColumn="1847C4FD-EB0C-1EF5-72DB-4E0C9E19EBBF"/>
+</associations>
+</Column>
+<Column name="quantity" id="F9F534EC-932A-5E8D-A412-3CECE1661AD7">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>EEB5F77B-20CE-3E44-8B48-07FAC04FA0BD</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="791DCE63-7D7F-EF48-AF42-651308D8B0FC" name="product_to_order_PK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>35563353-5132-5CF8-4141-A8B5330AA4A4</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D678E15-3A34-47AA-1A83-2EA8102CAEA2"/>
+<colUsage columnID="FB8EDC3A-52DC-1DE8-3D1B-A7A57B276FC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D4CE3E2-088C-0F02-FFD4-6C1FAAA7C22E" name="product_to_order_orders_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>B7F25485-B0B1-54C4-9F88-C08F8E5EEFC2</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB8EDC3A-52DC-1DE8-3D1B-A7A57B276FC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C23EF741-A557-E8EA-B1ED-571745E04710" name="product_to_order_products_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>1DD4B728-E77E-DA06-B669-69544BE6B67C</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D678E15-3A34-47AA-1A83-2EA8102CAEA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

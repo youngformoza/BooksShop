@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="books_shop_relational" id="B66D7B99-3D81-A20F-BDB8-2BD8ADE2FE09" version="3.5">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 11:52:20 UTC</createdTime>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B66D7B99-3D81-A20F-BDB8-2BD8ADE2FE09</designId>
+</OSDM_Design>

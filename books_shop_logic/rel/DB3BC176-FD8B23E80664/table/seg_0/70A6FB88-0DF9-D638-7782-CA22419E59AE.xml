@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70A6FB88-0DF9-D638-7782-CA22419E59AE" name="positions">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>6B7072C7-C744-95B2-397E-99D33709BDE2</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_position" id="69701D34-06D6-BBBD-FF0B-BD1ECF8AF815">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>C19B1A96-9FE1-9A63-7576-0D250E4C718E</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duties" id="D1C4D17E-D413-C137-6FD1-C060372772FA">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>AD292466-4DDC-F693-E228-BEEAF20BD55A</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F051F2C-7990-972D-3AAB-F2E180243870</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E4EA6A23-3547-BA49-7A83-10B36F61BD95">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>9D4C7E6F-2C0E-C1F1-AD2B-689924193112</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F8B544B1-450C-56AE-AB52-DB22370AAFE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E72E46EA-67E6-DAA5-735F-00F414ED495B" name="positions_PK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>05CD2E20-64C4-1D5C-DDE9-C4807E7E7F88</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69701D34-06D6-BBBD-FF0B-BD1ECF8AF815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

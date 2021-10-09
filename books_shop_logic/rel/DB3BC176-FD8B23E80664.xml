@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" mainViewID="8840A6FD-2FE4-0FBE-E1FA-6F08F1FAB286">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 11:52:27 UTC</createdTime>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

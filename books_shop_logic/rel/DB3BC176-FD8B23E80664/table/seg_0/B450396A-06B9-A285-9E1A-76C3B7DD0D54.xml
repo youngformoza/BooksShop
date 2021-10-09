@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B450396A-06B9-A285-9E1A-76C3B7DD0D54" name="orders">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>7E21C8A5-B5AA-CED1-207C-CAC6897335AE</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_order" id="1847C4FD-EB0C-1EF5-72DB-4E0C9E19EBBF">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>400FC374-6E4A-497A-BA45-23DD0DF92F7F</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_time" id="A00A5C8D-CBBB-B8D4-3E1C-142CDE917B0E">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>26726CD1-641D-6E10-E448-02F47A33F245</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>B016EE87-60C4-367E-28F7-2B8C0EF53B1C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discount" id="A98E2FA4-177E-01EF-F0C3-751A24DFBDF7">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>7A66D87E-85D4-E3A9-F667-B4E76FFDAD03</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employees_id_employee" id="5F638936-409A-CFD4-2158-FEA522D49B19">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>2D18F049-F11F-3000-4FFE-C725E33C927A</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA284F77-5C43-E544-737B-BF4C05A3A6E7" referredColumn="DA7A9B1D-AFB5-0F81-8ACF-BE3777D8B712"/>
+</associations>
+</Column>
+<Column name="customers_id_customer" id="781FF1D6-B5AC-8E4B-1FEF-50842FA4D2FC">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>B11C6398-AE6E-42D6-E709-AB731307A939</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3727DBF-D150-98F6-3CF1-A8659E0207C4" referredColumn="6A20D624-F4F5-5D18-A511-399EA954A4AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EFF8B94-9BE7-4A2C-85C8-926E3FCED8CD" name="orders_PK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>0617C89B-8CDF-E97B-079A-9396C1469E23</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1847C4FD-EB0C-1EF5-72DB-4E0C9E19EBBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7A334D8-0038-1D6C-AA6F-E27119282378" name="orders_customers_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>29458360-5AB3-9BAA-8A80-44510E36EFDD</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="781FF1D6-B5AC-8E4B-1FEF-50842FA4D2FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51B6460E-3158-BE50-1283-3C4195461842" name="orders_employees_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>77522136-66B1-46B6-DA60-41FF7C5079B7</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F638936-409A-CFD4-2158-FEA522D49B19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

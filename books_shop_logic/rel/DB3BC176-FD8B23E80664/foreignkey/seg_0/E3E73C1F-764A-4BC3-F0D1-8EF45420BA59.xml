@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3E73C1F-764A-4BC3-F0D1-8EF45420BA59" containerWithKeyObject="50C1B389-E7C0-FE11-06CE-5FEAB58E6BC6" localFKIndex="AAEE420D-8FF2-B63C-D0E9-E45D50E11E04" name="employees_positions_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>10E9DC3F-275F-C975-AC48-735518351D4B</generatorID>
+<ownerDesignName>books_shop_logic</ownerDesignName>
+<referredTableLongName>positions</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>70A6FB88-0DF9-D638-7782-CA22419E59AE</referredTableID>
+<keyObject>E72E46EA-67E6-DAA5-735F-00F414ED495B</keyObject>
+<referredKeyID>E72E46EA-67E6-DAA5-735F-00F414ED495B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_position</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

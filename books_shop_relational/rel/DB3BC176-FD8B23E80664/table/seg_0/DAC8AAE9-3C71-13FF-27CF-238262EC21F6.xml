@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAC8AAE9-3C71-13FF-27CF-238262EC21F6" name="books">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>2E6CED99-89CC-98B7-2D53-140939F338FD</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="products_id_product" id="9C43C77A-4D71-72BB-C15E-78F930040B4D">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>EE29DD86-4430-DC9F-14F2-53DC0B3FBA4C</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1012EF83-2505-5FCA-DCB8-C301757066E1" referredColumn="8C2E5ADA-F6E0-DD6E-744D-ADED378FBF54"/>
+</associations>
+</Column>
+<Column name="book_forms_id_form" id="F2465117-E605-8120-2908-BDBC40C08A33">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>244ED2AE-E513-8F1A-0F8A-094EA00F520B</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA65C355-50FF-5C9A-0758-4DD379F822BC" referredColumn="E6095728-EF4C-783B-0F26-ACC30E0EC94B"/>
+</associations>
+</Column>
+<Column name="paper_type_id_paper" id="2275F72D-6B60-0DE6-60DA-46B28C381D6E">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>FC2A16D9-F1A6-F530-03A5-17A0EF5E5E40</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EAD79A4-FCDD-238B-DAE6-CD0D8230B4FE" referredColumn="EB234571-8ABE-741D-56DA-9F281258F3A9"/>
+</associations>
+</Column>
+<Column name="cover_book_id_cover_book" id="71BBF51E-F22B-4366-BCBF-0CAE00DE68F1">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>5C60822F-EB67-998A-8E9E-D08C5771B5BC</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A57A53EA-78ED-A585-D9B9-FE22F0169055" referredColumn="EED1DD5C-29DD-3CC4-066C-3C784E58A805"/>
+</associations>
+</Column>
+<Column name="genre_id_genre" id="48BCE4ED-9E73-201C-CD7B-CF66DE599344">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>C81F6BAD-3389-04AD-DC79-2ED68C683B4E</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39110B95-B263-9BDE-AFA0-BCC5539DB505" referredColumn="EFE07C5D-E162-9288-2000-8F2D6C2F951C"/>
+</associations>
+</Column>
+<Column name="name" id="37B22DE2-6D4F-A482-A91F-57391491E1BC">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>D1FB1F53-122D-E6CD-D78B-D48CD7C7E5ED</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F051F2C-7990-972D-3AAB-F2E180243870</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISBN" id="631BE267-437E-FBDF-E4C5-070C2164E000">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>EFB5EC3F-CB28-3932-1D8B-DE0D167EE8D0</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88991494-8FF3-0D8E-1928-8E43E412020C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_of_publication" id="58D2A6A6-0164-32AD-056D-381A5004C07C">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>4FDFA630-1B34-8509-9AA1-E155B661D10F</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FE1415B8-A713-42AB-22B4-3E7712890FB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C76B47C6-83CB-036C-134D-9EB370AFAF1C" name="books_PK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>4B3981B1-6704-C2C0-7166-5CBD9DF86324</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C43C77A-4D71-72BB-C15E-78F930040B4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3B5AE1B-B6EF-F7E3-D89F-88D1273340F2" name="books_cover_book_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>B860B158-EF13-59C5-FCB2-7C1DEA187244</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71BBF51E-F22B-4366-BCBF-0CAE00DE68F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0974344C-052B-E7F0-4CB4-0333BC4FBC08" name="books_genre_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>4BC609F8-6486-B175-9D99-4CB5742C90FA</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48BCE4ED-9E73-201C-CD7B-CF66DE599344"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CF2BAC3-4C32-97F6-FA16-2B417BBEE799" name="books_paper_type_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>B8F94DC1-096F-6119-6469-F3F2C86B4EC6</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2275F72D-6B60-0DE6-60DA-46B28C381D6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3429AD27-0648-B87E-EA9E-D5622D896604" name="books_products_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>C32B3F5F-C37B-82F3-39ED-F6C5BDD70B4D</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C43C77A-4D71-72BB-C15E-78F930040B4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB61F76A-8700-33FF-FB22-8D3F16B5CECA" name="books_book_forms_FK">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-09 14:40:13 UTC</createdTime>
+<generatorID>3AFB5239-ABF7-3FA1-98C2-44F75BAE78DD</generatorID>
+<ownerDesignName>books_shop_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2465117-E605-8120-2908-BDBC40C08A33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
