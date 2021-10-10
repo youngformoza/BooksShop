@@ -19,6 +19,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 <associations>
 <colAssociation fkAssociation="1012EF83-2505-5FCA-DCB8-C301757066E1" referredColumn="8C2E5ADA-F6E0-DD6E-744D-ADED378FBF54"/>
 </associations>
@@ -34,6 +39,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 <associations>
 <colAssociation fkAssociation="CA65C355-50FF-5C9A-0758-4DD379F822BC" referredColumn="E6095728-EF4C-783B-0F26-ACC30E0EC94B"/>
 </associations>
@@ -49,6 +59,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 <associations>
 <colAssociation fkAssociation="9EAD79A4-FCDD-238B-DAE6-CD0D8230B4FE" referredColumn="EB234571-8ABE-741D-56DA-9F281258F3A9"/>
 </associations>
@@ -64,6 +79,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 <associations>
 <colAssociation fkAssociation="C2C36DE1-8892-B918-A308-EB8D96A9E922" referredColumn="EED1DD5C-29DD-3CC4-066C-3C784E58A805"/>
 </associations>
@@ -79,6 +99,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 <associations>
 <colAssociation fkAssociation="39110B95-B263-9BDE-AFA0-BCC5539DB505" referredColumn="EFE07C5D-E162-9288-2000-8F2D6C2F951C"/>
 </associations>

@@ -18,6 +18,11 @@
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="name" id="9A4B0B5A-F846-0C9F-961B-6849166376A8">
 <createdBy>YoFo</createdBy>
@@ -52,6 +57,12 @@
 <domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>18</beginValue>
+<endValue>65</endValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="profession" id="304C7159-942E-89EC-2F2F-8E7A9470D7E4">
 <createdBy>YoFo</createdBy>

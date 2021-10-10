@@ -26,6 +26,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="full_name" id="0B560731-4064-A2D5-7BCB-1BA0769B782A">
 <createdBy>YoFo</createdBy>
@@ -61,9 +66,15 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>883BD4AB-696C-CC92-C41F-B21BAE20CF21</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>7753000000</endValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -71,8 +82,9 @@
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-09 13:25:18 UTC</createdTime>
 <ownerDesignName>books_shop_logic</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

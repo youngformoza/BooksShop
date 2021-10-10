@@ -18,6 +18,11 @@
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="name" id="65A82555-33DE-7E08-2055-9FE6B820E520">
 <createdBy>YoFo</createdBy>
@@ -32,7 +37,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BAB6C191-6B08-41C1-4044-BC5EAF0D8EC6" name="paper_type_PK">
+<ind_PK_UK id="BAB6C191-6B08-41C1-4044-BC5EAF0D8EC6" name="paper_types_PK">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-09 14:40:13 UTC</createdTime>
 <generatorID>17C6C043-C407-37B1-62D2-94B1D852894C</generatorID>

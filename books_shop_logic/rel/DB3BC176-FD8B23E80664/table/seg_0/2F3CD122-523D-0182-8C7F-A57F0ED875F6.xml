@@ -18,6 +18,11 @@
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="name" id="9326E105-E58A-FE16-7486-2284BB17A4C0">
 <createdBy>YoFo</createdBy>

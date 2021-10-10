@@ -18,6 +18,11 @@
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="full_name" id="8FAD898A-52A1-0115-9A8C-05CA911FC649">
 <createdBy>YoFo</createdBy>
@@ -49,10 +54,16 @@
 <ownerDesignName>books_shop_logic</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<domain>883BD4AB-696C-CC92-C41F-B21BAE20CF21</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>7753000000</endValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

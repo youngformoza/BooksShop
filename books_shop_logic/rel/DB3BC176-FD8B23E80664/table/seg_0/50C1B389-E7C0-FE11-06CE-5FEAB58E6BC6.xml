@@ -18,6 +18,11 @@
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="age" id="B58A1989-7EFA-502E-47AF-A5E0B5D8828A">
 <createdBy>YoFo</createdBy>
@@ -29,6 +34,12 @@
 <domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>14</beginValue>
+<endValue>99</endValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="experince" id="9772815C-4B39-D69F-6A07-494FB51579E9">
 <createdBy>YoFo</createdBy>
@@ -37,9 +48,15 @@
 <ownerDesignName>books_shop_logic</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
+<domain>A1F1371B-EBEE-F599-5464-5ABE9223882A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>60</endValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="full_name" id="5303B406-138C-5C0E-ED32-52E7B077A3E0">
 <createdBy>YoFo</createdBy>
@@ -63,6 +80,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 <associations>
 <colAssociation fkAssociation="E3E73C1F-764A-4BC3-F0D1-8EF45420BA59" referredColumn="69701D34-06D6-BBBD-FF0B-BD1ECF8AF815"/>
 </associations>

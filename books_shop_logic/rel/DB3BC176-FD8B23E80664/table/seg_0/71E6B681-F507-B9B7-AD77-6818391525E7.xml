@@ -18,6 +18,11 @@
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="name" id="73687795-F1DE-5D6A-D29E-BAF321BF4C17">
 <createdBy>YoFo</createdBy>
@@ -32,7 +37,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="575B95C0-C728-25A9-FBEF-944DE67B96B3" name="genre_PK">
+<ind_PK_UK id="575B95C0-C728-25A9-FBEF-944DE67B96B3" name="genres_PK">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-09 14:40:13 UTC</createdTime>
 <generatorID>879D9791-606E-31C0-E455-FF2A24C0298F</generatorID>

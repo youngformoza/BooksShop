@@ -18,6 +18,11 @@
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="date_time" id="A00A5C8D-CBBB-B8D4-3E1C-142CDE917B0E">
 <createdBy>YoFo</createdBy>
@@ -37,9 +42,15 @@
 <ownerDesignName>books_shop_logic</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
+<domain>5678E94F-B803-84D4-CA97-1935C212F147</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="employees_id_employee" id="5F638936-409A-CFD4-2158-FEA522D49B19">
 <createdBy>YoFo</createdBy>
@@ -52,6 +63,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 <associations>
 <colAssociation fkAssociation="AA284F77-5C43-E544-737B-BF4C05A3A6E7" referredColumn="DA7A9B1D-AFB5-0F81-8ACF-BE3777D8B712"/>
 </associations>
@@ -67,6 +83,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 <associations>
 <colAssociation fkAssociation="E3727DBF-D150-98F6-3CF1-A8659E0207C4" referredColumn="6A20D624-F4F5-5D18-A511-399EA954A4AC"/>
 </associations>

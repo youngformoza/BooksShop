@@ -28,6 +28,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="id_form" id="244ED2AE-E513-8F1A-0F8A-094EA00F520B">
 <createdBy>YoFo</createdBy>
@@ -42,6 +47,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="id_paper_type" id="FC2A16D9-F1A6-F530-03A5-17A0EF5E5E40">
 <createdBy>YoFo</createdBy>
@@ -56,6 +66,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="id_cover_book" id="16B916C2-9A31-2C9B-D24E-C378CE917F64">
 <createdBy>YoFo</createdBy>
@@ -70,6 +85,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="id_genre" id="C81F6BAD-3389-04AD-DC79-2ED68C683B4E">
 <createdBy>YoFo</createdBy>
@@ -84,6 +104,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="name" id="D1FB1F53-122D-E6CD-D78B-D48CD7C7E5ED">
 <createdBy>YoFo</createdBy>

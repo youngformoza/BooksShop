@@ -26,6 +26,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="name" id="7B2C2CF6-EDB0-4EF5-EDF0-6BCC3850FE20">
 <createdBy>YoFo</createdBy>
@@ -63,6 +68,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>18</beginValue>
+<endValue>65</endValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="profession" id="90F9E93B-C952-0A17-8622-57069F04C719">
 <createdBy>YoFo</createdBy>

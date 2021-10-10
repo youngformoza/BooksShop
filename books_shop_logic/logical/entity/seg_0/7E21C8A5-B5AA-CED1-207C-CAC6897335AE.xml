@@ -26,6 +26,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="date_time" id="26726CD1-641D-6E10-E448-02F47A33F245">
 <createdBy>YoFo</createdBy>
@@ -48,8 +53,14 @@
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<domain>7552D68E-DB62-CB06-4D41-B4E2039774E1</domain>
+<domain>5678E94F-B803-84D4-CA97-1935C212F147</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="id_employee" id="2D18F049-F11F-3000-4FFE-C725E33C927A">
 <createdBy>YoFo</createdBy>
@@ -64,6 +75,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="id_customer" id="B11C6398-AE6E-42D6-E709-AB731307A939">
 <createdBy>YoFo</createdBy>
@@ -78,6 +94,11 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>A4AC92F1-B228-ED0C-947B-F7ECC57F7981</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -85,8 +106,9 @@
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-09 13:05:42 UTC</createdTime>
 <ownerDesignName>books_shop_logic</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="true"/>
+<item key="DB3BC176-B57C-D4B8-68C9-FD8B23E80664" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
