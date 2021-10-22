@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA5271B6-D773-CFA8-4AEC-AD8F96948462" name="book form">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[entity for books forms, contains name and PK - form_id]]></comment>
+<commentInRDBMS><![CDATA[entity for books forms, contains name and PK - form_id]]></commentInRDBMS>
 <generatorID>5B440E8D-0F1B-B256-173A-B54D7FF3B6AA</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>

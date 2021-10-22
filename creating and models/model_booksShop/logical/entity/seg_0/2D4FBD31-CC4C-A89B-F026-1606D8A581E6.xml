@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D4FBD31-CC4C-A89B-F026-1606D8A581E6" name="stationery type">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[entity for stationery types, contains: name and PK - type_stat_id]]></comment>
+<commentInRDBMS><![CDATA[entity for stationery types, contains: name and PK - type_stat_id]]></commentInRDBMS>
 <generatorID>B3F9277E-99A7-0767-817B-DE8DE58FBD59</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>

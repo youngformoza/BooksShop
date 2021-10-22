@@ -3,6 +3,8 @@
 <sourceDDLFile>shop.ddl</sourceDDLFile>
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<comment><![CDATA[entity for gift cards, contains: name and PK - cover_card_id]]></comment>
+<commentInRDBMS><![CDATA[entity for gift cards, contains: name and PK - cover_card_id]]></commentInRDBMS>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <importedID>A7BE611D-4D79-A039-6E85-505CAFF4461C</importedID>
 <allowColumnReorder>false</allowColumnReorder>

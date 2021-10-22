@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58ED158A-1C36-E478-4C76-F2EE17768373" name="type of cover">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[entity for gift cards, contains: name and PK - cover_card_id]]></comment>
+<commentInRDBMS><![CDATA[entity for gift cards, contains: name and PK - cover_card_id]]></commentInRDBMS>
 <generatorID>BA55BAD1-3D84-976A-777B-FD5CF4E38329</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>

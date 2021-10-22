@@ -3,6 +3,8 @@
 <sourceDDLFile>shop.ddl</sourceDDLFile>
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<comment><![CDATA[entity for products, contains: price, producer and PK: product_id]]></comment>
+<commentInRDBMS><![CDATA[entity for products, contains: price, producer and PK: product_id]]></commentInRDBMS>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <importedID>318175E0-6528-A41B-E494-6BE5A1D5F3FE</importedID>
 <allowColumnReorder>false</allowColumnReorder>

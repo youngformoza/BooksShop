@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68819113-4AD7-6CC4-F477-22EED896E06A" name="employee">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[entity for employees, contains: age, experience, full name, gender, FK: position_id, PK: employee_id, indexes for all foreign keys]]></comment>
+<commentInRDBMS><![CDATA[entity for employees, contains: age, experience, full name, gender, FK: position_id, PK: employee_id, indexes for all foreign keys]]></commentInRDBMS>
 <generatorID>C03AFE60-57C9-E66A-8235-96C9607BD29D</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>
@@ -121,6 +123,22 @@
 <endValue>2147483648</endValue>
 </rangeDef>
 </listOfRanges>
+</Attribute>
+<Attribute name="gender" id="A66875CE-0C27-924F-7949-3FFD9454BEDC">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 14:23:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[gender]]></commentInRDBMS>
+<generatorID>F09E9592-21B8-D5DA-546B-354768DAC739</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3345D970-2AA3-B0E6-4B86-D096EC5E1AD9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

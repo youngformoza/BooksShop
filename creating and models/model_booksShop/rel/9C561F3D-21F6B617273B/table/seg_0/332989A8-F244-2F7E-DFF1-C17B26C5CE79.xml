@@ -3,6 +3,8 @@
 <sourceDDLFile>shop.ddl</sourceDDLFile>
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<comment><![CDATA[entity for books authors, contains: authors full name, popularity (how many people read authors books) and country ]]></comment>
+<commentInRDBMS><![CDATA[entity for books authors, contains: authors full name, popularity (how many people read authors books) and country, PK - author_id]]></commentInRDBMS>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <importedID>874274E2-C3D1-8309-FD6C-926D2E672B1D</importedID>
 <allowColumnReorder>false</allowColumnReorder>

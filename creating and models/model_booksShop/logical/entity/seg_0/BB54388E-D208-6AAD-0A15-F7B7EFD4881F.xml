@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB54388E-D208-6AAD-0A15-F7B7EFD4881F" name="book">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[entity for type of products - books, contains: name, ISBN, date of publication, FK: book_form_id, paper_type_id, book_cover_type_id, genre_id and primary foreign key: product_id, indexes for all foreign keys]]></comment>
+<commentInRDBMS><![CDATA[entity for type of products - books, contains: name, ISBN, date of publication, FK: book_form_id, paper_type_id, book_cover_type_id, genre_id and primary foreign key: product_id, indexes for all foreign keys]]></commentInRDBMS>
 <generatorID>F2320C41-F303-D4AF-D901-928EDA69BF42</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>

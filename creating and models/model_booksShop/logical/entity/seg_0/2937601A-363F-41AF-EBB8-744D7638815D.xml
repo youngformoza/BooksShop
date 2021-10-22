@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2937601A-363F-41AF-EBB8-744D7638815D" name="book cover type">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[entity for cover types of books, contains name and PK - cover_book_id]]></comment>
+<commentInRDBMS><![CDATA[entity for cover types of books, contains name and PK - cover_book_id]]></commentInRDBMS>
 <generatorID>E10D5FDF-1F05-161F-527F-7C42146BFB50</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>

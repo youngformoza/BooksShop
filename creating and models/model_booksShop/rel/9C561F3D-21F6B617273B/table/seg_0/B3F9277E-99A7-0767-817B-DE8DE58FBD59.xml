@@ -3,6 +3,8 @@
 <sourceDDLFile>shop.ddl</sourceDDLFile>
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<comment><![CDATA[entity for stationery types, contains: name and PK - type_stat_id]]></comment>
+<commentInRDBMS><![CDATA[entity for stationery types, contains: name and PK - type_stat_id]]></commentInRDBMS>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <importedID>644402B8-355C-1788-8648-3089455279F8</importedID>
 <allowColumnReorder>false</allowColumnReorder>

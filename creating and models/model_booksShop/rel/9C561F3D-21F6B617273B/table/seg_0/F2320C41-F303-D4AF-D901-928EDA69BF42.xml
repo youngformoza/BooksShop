@@ -3,6 +3,8 @@
 <sourceDDLFile>shop.ddl</sourceDDLFile>
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<comment><![CDATA[entity for type of products - books, contains: name, ISBN, date of publication, FK: book_form_id, paper_type_id, book_cover_type_id, genre_id and primary foreign key: product_id, indexes for all foreign keys]]></comment>
+<commentInRDBMS><![CDATA[entity for type of products - books, contains: name, ISBN, date of publication, FK: book_form_id, paper_type_id, book_cover_type_id, genre_id and primary foreign key: product_id, indexes for all foreign keys]]></commentInRDBMS>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <importedID>61E84652-5BD6-7887-0176-D5B465D7870A</importedID>
 <allowColumnReorder>false</allowColumnReorder>

@@ -3,6 +3,8 @@
 <sourceDDLFile>shop.ddl</sourceDDLFile>
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<comment><![CDATA[entity for employees, contains: age, experience, full name, gender, FK: position_id, PK: employee_id, indexes for all foreign keys]]></comment>
+<commentInRDBMS><![CDATA[entity for employees, contains: age, experience, full name, gender, FK: position_id, PK: employee_id, indexes for all foreign keys]]></commentInRDBMS>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <importedID>5D48D2C7-97D1-0D59-43BF-2189445278D3</importedID>
 <allowColumnReorder>false</allowColumnReorder>
@@ -80,6 +82,18 @@
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>4F051F2C-7990-972D-3AAB-F2E180243870</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="F09E9592-21B8-D5DA-546B-354768DAC739">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 14:22:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[gender]]></commentInRDBMS>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3345D970-2AA3-B0E6-4B86-D096EC5E1AD9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

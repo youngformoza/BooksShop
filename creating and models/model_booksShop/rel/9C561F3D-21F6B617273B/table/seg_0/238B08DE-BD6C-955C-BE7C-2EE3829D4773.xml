@@ -3,6 +3,8 @@
 <sourceDDLFile>shop.ddl</sourceDDLFile>
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<comment><![CDATA[auxiliary entity many-to-many product_order, contains: quantity of product in order, 2 primary foreign keys from entites order and product]]></comment>
+<commentInRDBMS><![CDATA[auxiliary entity many-to-many product_order, contains: quantity of product in order, 2 primary foreign keys from entites order and product]]></commentInRDBMS>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <importedID>3E9EFE8E-975E-90B8-3B45-3D759323BA5F</importedID>
 <allowColumnReorder>false</allowColumnReorder>

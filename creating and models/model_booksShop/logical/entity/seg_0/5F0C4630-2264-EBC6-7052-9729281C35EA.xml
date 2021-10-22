@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F0C4630-2264-EBC6-7052-9729281C35EA" name="gift card">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[entity for type of products - gift cards, contains: FK: type_of_cover_id and primary foreign key: product_id, indexes for all foreign keys]]></comment>
+<commentInRDBMS><![CDATA[entity for type of products - gift cards, contains: FK: type_of_cover_id and primary foreign key: product_id, indexes for all foreign keys]]></commentInRDBMS>
 <generatorID>A511E772-26B2-3908-8EDB-1C0B53007B12</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>

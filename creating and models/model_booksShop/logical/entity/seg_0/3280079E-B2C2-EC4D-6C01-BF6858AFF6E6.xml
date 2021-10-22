@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3280079E-B2C2-EC4D-6C01-BF6858AFF6E6" name="order">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[entity for orders, contains: date and time, discount, FK: employee_id and customer_id, PK: order_id, indexes for all foreign keys]]></comment>
+<commentInRDBMS><![CDATA[entity for orders, contains: date and time, discount, FK: employee_id and customer_id, PK: order_id, indexes for all foreign keys]]></commentInRDBMS>
 <generatorID>DD591B89-EA4B-3007-ECC7-77FEED060BBF</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>

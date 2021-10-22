@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA8A7C72-E486-BEDA-018A-CE3945CCFF0B" name="kmtm product order">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[auxiliary entity many-to-many product_order, contains: quantity of product in order, 2 primary foreign keys from entites order and product]]></comment>
+<commentInRDBMS><![CDATA[auxiliary entity many-to-many product_order, contains: quantity of product in order, 2 primary foreign keys from entites order and product]]></commentInRDBMS>
 <generatorID>238B08DE-BD6C-955C-BE7C-2EE3829D4773</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>

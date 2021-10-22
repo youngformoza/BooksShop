@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="087C5845-16C5-8140-9CA6-38C73E6A9264" name="position">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[entity for employees positions, contains: duties, name of position and PK: position_id]]></comment>
+<commentInRDBMS><![CDATA[entity for employees positions, contains: duties, name of position and PK: position_id]]></commentInRDBMS>
 <generatorID>8FE66479-7864-0598-50B5-B4B4A914BD07</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>

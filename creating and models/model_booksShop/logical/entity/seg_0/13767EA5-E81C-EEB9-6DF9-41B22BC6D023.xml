@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13767EA5-E81C-EEB9-6DF9-41B22BC6D023" name="customer">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<comment><![CDATA[entity for customers, contains: name, gender, age and profession and PK: customer_id]]></comment>
+<commentInRDBMS><![CDATA[entity for customers, contains: name, gender, age and profession and PK: customer_id]]></commentInRDBMS>
 <generatorID>875159DC-9AF0-2C13-D72F-C0C1D091B045</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>
@@ -56,10 +58,10 @@
 <domain>F8B544B1-450C-56AE-AB52-DB22370AAFE2</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sex" id="0A662037-D6C8-523D-A30C-9274216EC07A">
+<Attribute name="gender" id="0A662037-D6C8-523D-A30C-9274216EC07A">
 <createdBy>YoFo</createdBy>
 <createdTime>2021-10-22 11:06:27 UTC</createdTime>
-<commentInRDBMS><![CDATA[sex]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[gender]]></commentInRDBMS>
 <generatorID>A7BF0CDD-5E88-1A17-2E1E-D94E27F1D357</generatorID>
 <ownerDesignName>model_booksShop</ownerDesignName>
 <engineerTo>
