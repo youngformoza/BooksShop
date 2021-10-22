@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58ED158A-1C36-E478-4C76-F2EE17768373" name="type of cover">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<generatorID>BA55BAD1-3D84-976A-777B-FD5CF4E38329</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cover card id" id="2ADF62B4-64F0-7D12-D8EE-53EDA8B57A33">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<generatorID>2CA87600-F775-8690-83CC-52B974911096</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D5B70874-A2DA-322D-7BE3-3C56E2BFD20D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483648</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="name" id="03CDFB9F-CC32-DC01-F050-6372B306080A">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[name of cover]]></commentInRDBMS>
+<generatorID>29FDB36B-E0BF-2577-0068-4CFF9050BAFC</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F051F2C-7990-972D-3AAB-F2E180243870</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44171AB5-8ADA-6FD6-79B4-98926E4F88F3" name="pk type of cover">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<generatorID>96091C1B-B96C-427B-1EDE-BBE55882F2DE</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2ADF62B4-64F0-7D12-D8EE-53EDA8B57A33</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

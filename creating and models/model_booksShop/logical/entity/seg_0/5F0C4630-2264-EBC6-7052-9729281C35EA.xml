@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F0C4630-2264-EBC6-7052-9729281C35EA" name="gift card">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<generatorID>A511E772-26B2-3908-8EDB-1C0B53007B12</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="product id" id="F5BAE202-490A-3C3F-B7EF-485201BB2A89">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[foreign primary key]]></commentInRDBMS>
+<generatorID>D2970419-47C6-1449-09B6-D91695198229</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<referedAttribute>E0C3EA15-2319-A3BD-BD50-DCA972165486</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D5B70874-A2DA-322D-7BE3-3C56E2BFD20D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483648</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="type of cover id" id="612BE030-070C-28FD-FDFE-8C926647E405">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[foreign primary key]]></commentInRDBMS>
+<generatorID>06F2A27B-E76B-76D4-429F-4696FA76446C</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<referedAttribute>2ADF62B4-64F0-7D12-D8EE-53EDA8B57A33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D5B70874-A2DA-322D-7BE3-3C56E2BFD20D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483648</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B9662BA-7977-C32A-0CB2-084C4CD5FBC7" name="pk gift card">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<generatorID>F8987F92-3E28-26C9-4154-5DA9A0EA3A3A</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5BAE202-490A-3C3F-B7EF-485201BB2A89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

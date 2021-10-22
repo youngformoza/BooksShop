@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E10D5FDF-1F05-161F-527F-7C42146BFB50" name="book_cover_type">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>ECC2B774-31C2-E3ED-DB3E-F0D9FAD8B704</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cover_book_id" id="2BB0A48E-FEAE-596E-D287-7359A748D3BD">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>B86A74D5-9C21-B8EC-F957-77997CBFF4F3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D5B70874-A2DA-322D-7BE3-3C56E2BFD20D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483648</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="name" id="1C3FB02A-FC2E-3CE8-2734-370454448F60">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[name of cover type]]></commentInRDBMS>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>23829B82-95A7-65F2-73B6-9913A4A0610F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D2627ACD-A7C3-91F9-5430-F5F4B7E8E0ED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC70A12A-D7D1-D1C4-FA80-D98A500909A0" name="pk_book_cover_type">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>CBB37DB5-E09F-8275-38ED-96995D5C5ED1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BB0A48E-FEAE-596E-D287-7359A748D3BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

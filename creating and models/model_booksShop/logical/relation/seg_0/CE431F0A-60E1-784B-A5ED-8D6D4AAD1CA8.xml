@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_stationery_stat_type" directorySegmentName="seg_0" id="CE431F0A-60E1-784B-A5ED-8D6D4AAD1CA8">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<generatorID>5617AD2E-2285-FB64-5E2B-C6A5E5DD225B</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<sourcePk>6F8F7234-69B8-B31A-1CE4-4F10B40C2E1B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2D4FBD31-CC4C-A89B-F026-1606D8A581E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00658A9E-7F0D-E751-1971-FF6C9C8B84C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

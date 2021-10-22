@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="customer" directorySegmentName="seg_0" id="875159DC-9AF0-2C13-D72F-C0C1D091B045">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="age" id="0331C47E-9F39-3C66-2750-270926A63B63">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="profession" id="312FA77A-B25A-5F2C-2FD0-40E6CE8DDBC1">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_id" id="7F1EF7B9-E807-EEEB-ED9C-F4C88D640470">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="860CEBE7-F404-6ACC-A0BA-04D8A8159FEC">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sex" id="A7BF0CDD-5E88-1A17-2E1E-D94E27F1D357">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_customer" id="E34F7A8B-8C11-9AE0-C2FA-FE189588B662">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

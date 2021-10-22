@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E99848B2-A651-6B0A-C9A7-1092F9A530E1" name="genre">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>A2BAD1A0-1F44-EA31-C33D-0D02BB00F381</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="genre_id" id="8C24C7B8-C338-CE03-D5EF-022B3F556407">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[primary key]]></commentInRDBMS>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>81DE5346-A270-9467-E0B4-3D64D7C7CA54</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D5B70874-A2DA-322D-7BE3-3C56E2BFD20D</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12c" definition="genre_id = 1"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="36B0A2A3-C521-FDA5-3763-8DA3DDBC58EC">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[genres name]]></commentInRDBMS>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>5919AE78-9063-6D35-2413-C461F330FEE7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F8B544B1-450C-56AE-AB52-DB22370AAFE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1BD9E39-6D3B-9860-EC4B-C5C4BC1D03EA" name="pk_genre">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>EE247B68-0365-4DB8-11AF-DFF861860B95</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C24C7B8-C338-CE03-D5EF-022B3F556407"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

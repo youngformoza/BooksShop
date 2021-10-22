@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A59D2BDC-F8FF-9DB7-332F-A09439C7289E" containerWithKeyObject="A511E772-26B2-3908-8EDB-1C0B53007B12" localFKIndex="356D710F-D4FD-E52B-E962-35DEC11E544A" name="fk_gift_card_product">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>8C1D9B0E-4E96-EA33-A2BD-9A52470713AB</importedID>
+<referredTableLongName>product</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCF6997C-4532-36C6-339C-A2104731B9C7</referredTableID>
+<keyObject>55408C8F-FC6A-7B65-BAA6-E69B5C66945B</keyObject>
+<referredKeyID>55408C8F-FC6A-7B65-BAA6-E69B5C66945B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>product_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

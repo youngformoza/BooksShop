@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0F8019FD-EA7F-B691-6B5B-AC65F3A99848" mainViewID="D2FCDE71-EB3A-87F8-1C40-BDC39738FF54">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:03 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF3FB8C9-1E1D-CA37-F903-E520EE9B7706" name="kmtm_author_book">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>6D710DC6-BA8E-C094-A5E4-A543BE5E6443</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="author_id" id="18EB66D4-25EB-366A-2329-918447973163">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[foreign primary key]]></commentInRDBMS>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>67F43A96-D411-0B70-2ECA-F14D122DE239</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D5B70874-A2DA-322D-7BE3-3C56E2BFD20D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483648</endValue>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="94AF5192-DA4D-B169-62BC-CB8BF45AC0CA" referredColumn="CC7E80B3-E73C-1C4A-00E6-0DCD7CCBD0C2"/>
+</associations>
+</Column>
+<Column name="book_id" id="B52EAC13-AC54-D83A-04A6-FBCD5A392C78">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[foreign primary key]]></commentInRDBMS>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>713C949B-1215-62A5-4618-F981701F9A78</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D5B70874-A2DA-322D-7BE3-3C56E2BFD20D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483648</endValue>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="F4C88DE0-0F94-9330-8D6E-CF7ED6EEBD6B" referredColumn="7345917D-D98A-0E34-FB65-E5DABDDA5D92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99B0F011-1B2A-2CC9-5D8C-D4CD9B454904" name="pk_kmtm_author_book">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>88A56909-B8BC-6E00-5414-2C355B363AFE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18EB66D4-25EB-366A-2329-918447973163"/>
+<colUsage columnID="B52EAC13-AC54-D83A-04A6-FBCD5A392C78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44FFC78F-5FEB-8380-B149-AC640CC6138E" name="i_kmtm_author_book_author_id">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>869F50D7-B488-A10E-D202-B9CD56F76B5C</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18EB66D4-25EB-366A-2329-918447973163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B76180B3-D6F6-C2E9-3799-4763925DD022" name="i_kmtm_author_book_book_id">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>BCE9C472-6D8D-3D30-9354-8372BD73D42F</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B52EAC13-AC54-D83A-04A6-FBCD5A392C78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E806051E-E384-DCD0-9F0B-1E6527DB9BBF" name="fk_kmtm_author_book_author">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18EB66D4-25EB-366A-2329-918447973163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8015CF7D-BC20-714C-6A23-186F6094D23C" name="fk_kmtm_author_book_book">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B52EAC13-AC54-D83A-04A6-FBCD5A392C78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="shop" id="9C561F3D-98C9-A4E9-4298-21F6B617273B" mainViewID="0B082FB0-48BC-FAA5-8F40-AA525A40CED2">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:18 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>shop.ddl</fileName>
+<pathName>D:\</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

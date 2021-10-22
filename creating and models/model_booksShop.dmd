@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="model_booksShop" id="0258C5DA-F3C8-CCEC-52E8-2BE99FE37D2F" version="3.5">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:03 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0258C5DA-F3C8-CCEC-52E8-2BE99FE37D2F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A971454E-AE08-03D8-A132-4799D6C6BCB9">
+<designStoragePath>D:\shop</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

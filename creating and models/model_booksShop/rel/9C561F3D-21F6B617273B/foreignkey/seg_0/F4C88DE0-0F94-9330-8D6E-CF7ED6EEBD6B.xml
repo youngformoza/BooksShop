@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F4C88DE0-0F94-9330-8D6E-CF7ED6EEBD6B" containerWithKeyObject="CF3FB8C9-1E1D-CA37-F903-E520EE9B7706" localFKIndex="8015CF7D-BC20-714C-6A23-186F6094D23C" name="fk_kmtm_author_book_book">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>5758D4C9-B2CB-E911-BD63-7FE303A9328C</importedID>
+<referredTableLongName>book</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F2320C41-F303-D4AF-D901-928EDA69BF42</referredTableID>
+<keyObject>3F6F7955-1850-D637-C395-04C1D4D35076</keyObject>
+<referredKeyID>3F6F7955-1850-D637-C395-04C1D4D35076</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>product_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

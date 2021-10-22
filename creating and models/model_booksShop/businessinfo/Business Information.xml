@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="45F64313-A2FC-CE69-06D1-2076D98159F8">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:03 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

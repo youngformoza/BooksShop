@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="813406E1-CBBB-5D7E-9684-E7760C7DBDF2" containerWithKeyObject="A511E772-26B2-3908-8EDB-1C0B53007B12" localFKIndex="D393435B-09A4-E342-A05E-4A9F4482C394" name="fk_gift_card_type_of_cover">
+<sourceDDLFile>shop.ddl</sourceDDLFile>
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 10:43:20 UTC</createdTime>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<importedID>B7200DDA-98AA-DC7A-2C9A-576169FBCE02</importedID>
+<referredTableLongName>type_of_cover</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BA55BAD1-3D84-976A-777B-FD5CF4E38329</referredTableID>
+<keyObject>96091C1B-B96C-427B-1EDE-BBE55882F2DE</keyObject>
+<referredKeyID>96091C1B-B96C-427B-1EDE-BBE55882F2DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cover_card_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

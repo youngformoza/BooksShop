@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_order_employee" directorySegmentName="seg_0" id="3AEDDBF6-137F-D9CF-74EA-1CDCC4BC4D59">
+<createdBy>YoFo</createdBy>
+<createdTime>2021-10-22 11:06:27 UTC</createdTime>
+<generatorID>FD5004AC-42FC-A6EE-9105-C5F3C98AC297</generatorID>
+<ownerDesignName>model_booksShop</ownerDesignName>
+<engineerTo>
+<item key="62B5F4E0-2E31-F507-07D6-60137BA2E219" value="true"/>
+<item key="9C561F3D-98C9-A4E9-4298-21F6B617273B" value="true"/>
+</engineerTo>
+<sourcePk>B30DC9E3-DAA6-AD85-F127-6DCC3DAD7710</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68819113-4AD7-6CC4-F477-22EED896E06A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3280079E-B2C2-EC4D-6C01-BF6858AFF6E6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
